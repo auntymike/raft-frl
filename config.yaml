@@ -1,0 +1,37 @@
+paths:
+  base: "."
+  data_dir: "data"
+  results_dir: "results"
+
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+  - XRPUSDT
+  - LTCUSDT
+  - LINKUSDT
+
+download:
+  start: "2020-01-01"
+  end: "2025-12-31"
+  interval: "1m"
+  limit: 1000
+  sleep_sec: 0.05
+  chunk_size: 1048575
+
+analysis:
+  rolling_vol_window: 60
+  extreme_sigma: 2.0
+  regime_calib_hours: 4320
+  numpy_seed: 42
+
+forecast:
+  test_start: "2022-01-01"
+  roll_months: 12
+  train_months: 24
+  n_regimes: 3
+  eps: 1.0e-8
+  collapse_ratio_thresh: 1.05
+  pi_diag_prior: 0.90
+  pi_prior_weight: 0.10
+  em_iter: 30
+  n_workers: null
