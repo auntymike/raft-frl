@@ -2,7 +2,7 @@
 
 Replication code for:
 
-> Kim, T. (2026). Carrying regime uncertainty forward in cryptocurrency tail-risk forecasting. *Finance Research Letters*. https://doi.org/10.1016/j.frl.2026.110286
+> Kim, T. (2026). Carrying regime uncertainty forward in cryptocurrency tail-risk forecasting. *Finance Research Letters*, 106, 110286. https://doi.org/10.1016/j.frl.2026.110286
 
 This repository contains the full replication package for the above paper. All tables and figures in the manuscript and supplementary material can be reproduced by running the scripts in order.
 
@@ -111,9 +111,10 @@ If you use this code, please cite:
   title   = {Carrying regime uncertainty forward in cryptocurrency tail-risk forecasting},
   author  = {Kim, Taeyun},
   journal = {Finance Research Letters},
+  volume  = {106},
+  pages   = {110286},
   year    = {2026},
   doi     = {10.1016/j.frl.2026.110286},
-  note    = {Forthcoming},
   publisher = {Elsevier}
 }
 ```
